@@ -1,0 +1,22 @@
+{
+  "name": "MartenDD/fpdf",
+  "type": "typo3-cms-extension",
+  "description": "fpdf with namespaces for typo3",
+  "homepage": "http://www.aok.de",
+  "license": ["GPL-2.0+"],
+  "keywords": ["TYPO3 CMS"],
+  "authors": [
+    {
+      "name": "Marten Lehmann",
+      "email": "m.lehmann@queo-group.com",
+      "homepage": "http://www.queoflow.com/",
+      "role": "Developer"
+    }
+  ],
+
+  "autoload": {
+    "psr-4": {
+      "Fpdf\\": ""
+    }
+  }
+}
